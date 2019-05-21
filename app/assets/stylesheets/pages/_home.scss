@@ -1,1 +1,30 @@
 // Specific CSS for your home-page
+body {
+  background-color: #FCEDE6;
+}
+
+.home-page-title {
+  color: #1A3D6F;
+  text-align: center;
+}
+
+.container {
+}
+
+.card {
+  display: flex;
+  flex-flow: row wrap;
+  flex-shrink: 1;
+  flex: auto;
+  flex: initial;
+  flex: none;
+  height: 300px;
+  margin-bottom: 30px;
+
+}
+
+.cocktail-text {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+}
