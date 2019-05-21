@@ -3,12 +3,20 @@ body {
   background-color: #FCEDE6;
 }
 
-.home-page-title {
+.home-page-text {
   color: #1A3D6F;
   text-align: center;
 }
 
 .container {
+}
+.container-fluid {
+  margin-bottom: 30px;
+
+  a{
+  color: #1A3D6F;
+  font-size: 16px;
+  }
 }
 
 .card {
@@ -20,6 +28,8 @@ body {
   flex: none;
   height: 300px;
   margin-bottom: 30px;
+  border-radius: 10px;
+
 
 }
 
@@ -27,4 +37,32 @@ body {
   font-size: 20px;
   text-align: center;
   margin: 20px;
+  color: #1A3D6F;
 }
+
+.cocktailimage {
+  width: 100%;
+  height: 75%;
+  border-radius: 10px;
+}
+
+.cocktailnames {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  color: #1A3D6F;
+}
+
+.btncontainer {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  padding: 15px;
+}
+.dose {
+  color: #1A3D6F;
+  text-align: center;
+}
+
+
+
